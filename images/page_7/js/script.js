@@ -1,7 +1,7 @@
 const MAXIMOS_INTENTOS = 10, // Intentos máximos que tiene el jugador
     COLUMNAS = 4, // Columnas del juego
     SEGUNDOS_ESPERA_VOLTEAR_IMAGEN = 1, // Por cuántos segundos mostrar ambas imágenes
-    NOMBRE_IMAGEN_OCULTA = "./images/page_7/FICHA-CERRADA.png"; // La imagen que se muestra cuando la real está oculta
+    NOMBRE_IMAGEN_OCULTA = "../FICHA-CERRADA.png"; // La imagen que se muestra cuando la real está oculta
 new Vue({
     el: "#app",
     data: () => ({
