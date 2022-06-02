@@ -42,9 +42,10 @@ new Vue({
             })
                 .then(this.reiniciarJuego)
         },
-        // Mostrar alerta de victoria y reiniciar juego
+        // Mostrar alerta de victoria y reiniciar juego debe mandar al siguiente slide
         indicarVictoria() {
-            Swal.fire({
+            window.location.href = "../../page_8.html";
+           /*  Swal.fire({
                 title: "¡Ganaste!",
                 html: `
                 <p class="h4">Muy bien hecho, lo lograste en ${this.intentos} de ${this.MAXIMOS_INTENTOS} intentos:</p>`,
@@ -52,7 +53,7 @@ new Vue({
                 allowOutsideClick: false,
                 allowEscapeKey: false,
             })
-                .then(this.reiniciarJuego)
+                .then(this.reiniciarJuego) */
         },
         // Método que indica si el jugador ha ganado
         haGanado() {
